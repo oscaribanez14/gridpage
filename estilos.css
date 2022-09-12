@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(225, 237, 241);
+    font-size: 18px;
+    text-align: justify;
+}
+header{
+    padding: 50px;
+    background-color: grey;
+    margin:1px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    padding: 25px;
+    color: rgb(250, 241, 241);
+}
+.grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-column-gap: 5px;
+    grid-template-rows: 150px;
+    align-items: stretch;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.UNO{
+    border: black 3px solid; 
+    background-color: red;
+    color: white;
+}
+.DOS{
+    border: black 3px solid; 
+    background-color: black;
+    color: white;
+}
+.TRES{
+    border: black 3px solid; 
+    background-color: red;
+    color: white;
+}
+.CUATRO{
+    border: black 3px solid; 
+    background-color: black; 
+    color: white;
+}
+footer{
+    padding: 12px;
+    background-color: black;
+    margin-top: 10px;
+    background-color: grey;
+    margin:1px;
+}
